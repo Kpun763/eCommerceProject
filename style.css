@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+header {
+   text-decoration-color: black;
+
+}
+
+.center-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    text-align: center;
+    height: 15;
+}
+
+.container {
+    display: flex;
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+}
+
+main {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.topnav {
+    padding: 20px;
+
+}
