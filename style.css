@@ -61,13 +61,20 @@ a {
     display: flex;
     flex-direction: row;
     padding: 1px;
+    flex-wrap: wrap;
     align-items: flex-start;
+    
 
 }
+.container img {
+    float: left;
+    margin-right: 3rem;
 
+}
 .img {
     float: left;
     margin-right: 10px;
+
 }
 
 main {
@@ -83,5 +90,4 @@ main {
 .border {
     width: 400px;
     border-radius: 30px;
-    padding: 20px;
 }
