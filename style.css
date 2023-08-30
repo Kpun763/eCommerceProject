@@ -59,6 +59,10 @@ a {
 
 .container {
     display: flex;
+    flex-direction: row;
+    padding: 1px;
+    align-items: flex-start;
+
 }
 
 .img {
@@ -74,4 +78,10 @@ main {
 .topnav {
     padding: 20px;
 
+}
+
+.border {
+    width: 400px;
+    border-radius: 30px;
+    padding: 20px;
 }
